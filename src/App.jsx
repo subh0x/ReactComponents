@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Accordion } from './components/accordion'
 import RandomColorGenerator from './components/randomcolorgenerator'
+import { ReviewContainer } from './components/review-container'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
       {/* Component - Accordion */}
       {/* <Accordion /> */}
       {/* Component - Random Color Generator */}
-      <RandomColorGenerator />
+      {/* <RandomColorGenerator /> */}
+      <ReviewContainer />
     </>
   )
 }
